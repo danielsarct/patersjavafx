@@ -8,11 +8,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 
-public class ProjetoMetre extends Application {
+public class ManComboBox extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLComboBox.fxml"));
         
         Scene scene = new Scene(root);
         
